@@ -8,6 +8,7 @@ Smart Issue Board is a frontend-focused issue tracking system built to demonstra
 Users can sign up, log in securely, create issues, and view them in an organized dashboard.
 
 The application uses Firebase for authentication and database management, making it lightweight, scalable, and easy to deploy without a custom backend.
+
 ✨ Features
 ------------
 🔐 User authentication (Signup & Login)
@@ -164,6 +165,7 @@ Improve role-based access (admin vs user)
 Add charts or analytics on the dashboard
 
 Move inline styles to reusable CSS files or use a UI library
+
 
 
 
