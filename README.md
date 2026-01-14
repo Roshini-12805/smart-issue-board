@@ -1,14 +1,12 @@
 🧠 Smart Issue Board
 
 A web-based issue tracking application that allows users to create, view, and manage issues efficiently with authentication and real-time data storage.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📖 Project Overview
 --------------------
 Smart Issue Board is a frontend-focused issue tracking system built to demonstrate modern web development practices using React and Firebase.
 Users can sign up, log in securely, create issues, and view them in an organized dashboard.
 
 The application uses Firebase for authentication and database management, making it lightweight, scalable, and easy to deploy without a custom backend.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✨ Features
 ------------
 🔐 User authentication (Signup & Login)
@@ -24,7 +22,7 @@ The application uses Firebase for authentication and database management, making
 ⚡ Fast performance using Vite
 
 ☁️ Deployed on Vercel
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠️ Tech Stack
 --------------
 Frontend
@@ -48,7 +46,7 @@ Deployment
 Vercel – Hosting and CI/CD
 
 GitHub – Version control
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Setup Instructions
 ----------------------
 1️. Clone the repository
@@ -79,10 +77,11 @@ npm run dev
 The app will be available at:
 
 http://localhost:5173
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📌 Project Design & Implementation Details
 -------------------------------------------
 1️. Why did you choose the frontend stack you used?
+--------------------------------------------------
 
 I chose React for the frontend because it enables building reusable, component-based UI and efficiently managing state, which is essential for a dynamic application like an issue tracking system. React also has a strong ecosystem and community support, making development faster and more maintainable.
 
@@ -91,9 +90,10 @@ I used Vite as the frontend build tool because it provides extremely fast develo
 React Router was used to handle client-side routing, allowing smooth navigation between pages such as Login, Signup, Dashboard, Create Issue, and Issue List without full page reloads, resulting in a seamless user experience.
 
 This stack helped me focus more on application logic and user experience rather than backend infrastructure.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 2️. Explain your Firestore data structure
+------------------------------------------
 
 I used a single main collection called issues in Firestore.
 
@@ -118,9 +118,9 @@ Using one collection keeps the structure simple and scalable
 createdAt is stored as a Firestore Timestamp to enable sorting (newest first)
 
 Filters (status and priority) are applied on the frontend for better flexibility
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3️. Explain how you handled similar issues
 
+3️. Explain how you handled similar issues
+-------------------------------------------
 When creating a new issue, the application checks for similar existing issues by:
 
 Fetching all existing issues from Firestore
@@ -136,10 +136,9 @@ A warning message is shown
 The user is asked to confirm whether they still want to create the issue
 
 This approach prevents duplicate issues while still allowing the user to proceed if needed.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4️. Mention what was confusing or challenging
-
+----------------------------------------------
 Understanding Firestore rules and queries was initially confusing, especially how filtering and ordering work together.
 
 Handling controlled vs uncontrolled inputs in React caused warnings until the state was properly initialized.
@@ -147,9 +146,9 @@ Handling controlled vs uncontrolled inputs in React caused warnings until the st
 Designing a clean UI layout while keeping the logic simple required multiple iterations.
 
 Implementing business rules like preventing status change from Open directly to Done needed careful validation.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5️. Mention what you would improve next
+---------------------------------------
 
 If I had more time, I would improve the following:
 
@@ -164,4 +163,5 @@ Improve role-based access (admin vs user)
 Add charts or analytics on the dashboard
 
 Move inline styles to reusable CSS files or use a UI library
+
 
