@@ -170,7 +170,9 @@ Move inline styles to reusable CSS files or use a UI library
 🔗 Project links
 -------------------
 Github url: https://github.com/Roshini-12805/smart-issue-board.git
+
 Vercel url: https://smart-issue-board-ah9b6fu3v-roshinis-projects-f0342473.vercel.app
+
 
 
 
