@@ -1,6 +1,7 @@
 🧠 Smart Issue Board
 
 A web-based issue tracking application that allows users to create, view, and manage issues efficiently with authentication and real-time data storage.
+
 📖 Project Overview
 --------------------
 Smart Issue Board is a frontend-focused issue tracking system built to demonstrate modern web development practices using React and Firebase.
@@ -163,5 +164,6 @@ Improve role-based access (admin vs user)
 Add charts or analytics on the dashboard
 
 Move inline styles to reusable CSS files or use a UI library
+
 
 
